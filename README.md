@@ -34,6 +34,7 @@
 * [gitkatas](https://github.com/praqma-training/git-katas)
 * [TryGit](https://try.github.io/levels/1/challenges/1)
 * [Learn Git Branching](https://learngitbranching.js.org/)
+* [Några bash-kommandon](Bash.md)
 
 ## Lektionsplanering
 
