@@ -52,6 +52,7 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 
 * Branchning
 * [PG: Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)  
+* [Gitflow](Gitflow.md)
 
 #### `v.14, 5/4`
 
