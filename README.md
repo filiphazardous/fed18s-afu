@@ -17,13 +17,13 @@
 | [__1. Versionshantering med Git__](#1-versionshantering-med-git) | v.12-15 |
 | [__2. Utvecklingsprinciper__](#2-utvecklingsprinciper) | prel v.16-17 |
 | [__3. Kvalitetssäkring av utvecklingsarbete__](#3-kvalitetss%C3%A4kring-av-utvecklingsarbete) | prel v.18-21 |
-| [__4. Verktyg och praxis__](#4-verktyg-och-praxis) | prel v.22-23 |
+| [__4. Verktyg och praxis__](#4-verktyg-och-praxis) | prel v.22-24 |
 
 ### Uppgifter
 
 | Uppgift                                | Deadline |
 |:---------------------------------------|---------:|
-| Inlämningsuppgift 1 (Git)              | mån 15/4 |
+| Prov (inlagt i Zenith) 1 (Git)         | tis 16/4 |
 
 ## Litteratur
 
