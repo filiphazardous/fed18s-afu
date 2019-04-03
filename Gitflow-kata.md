@@ -58,8 +58,8 @@ Du ska stå i grenen `develop` när du börjar utföra
  följande kommandon.
  
  ```sh
- git checkout -b develop/goodbye
- touch goodby.js
+ git checkout -b feature/goodbye
+ touch goodbye.js
  ```
  
  Öppna filen `goodbye.js` med en editor, och lägg in
