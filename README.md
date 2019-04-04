@@ -15,15 +15,15 @@
 | Delmoment                              | Period  |
 |:---------------------------------------|--------:|
 | [__1. Versionshantering med Git__](#1-versionshantering-med-git) | v.12-15 |
-| [__2. Utvecklingsprinciper__](#2-utvecklingsprinciper) | prel v.16-17 |
-| [__3. Kvalitetssäkring av utvecklingsarbete__](#3-kvalitetss%C3%A4kring-av-utvecklingsarbete) | prel v.18-21 |
+| [__2. Utvecklingsprinciper__](#2-utvecklingsprinciper) | prel v.17-18 |
+| [__3. Kvalitetssäkring av utvecklingsarbete__](#3-kvalitetss%C3%A4kring-av-utvecklingsarbete) | prel v.19-21 |
 | [__4. Verktyg och praxis__](#4-verktyg-och-praxis) | prel v.22-24 |
 
 ### Uppgifter
 
-| Uppgift                                | Deadline |
-|:---------------------------------------|---------:|
-| Prov (inlagt i Zenith) 1 (Git)         | tis 16/4 |
+| Uppgift                                    | Deadline |
+|:-------------------------------------------|---------:|
+| Inlämningsuppgift (inlagt i Zenith) 1 (Git)| tis 16/4 |
 
 ## Litteratur
 
@@ -61,12 +61,14 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 * GitHub
 * [PG: Distributed Git](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows)
 * [PG: GitHub](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)
+* [Remote host-övningar](afu3/README.md)
 
 #### `v.15, 12/4`
 
 * Verktyg
   * References, Commit ranges
   * git stash, clean
+  * git merge --squash
   * Searching
   * git hooks
 * gitk
