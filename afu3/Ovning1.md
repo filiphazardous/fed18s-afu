@@ -76,7 +76,7 @@ Vad hände? Varför?
 Nu sätter vi _rätt_ upstream:
 ```sh
 git remote rm origin
-git remote rename upstream origin
+git remote add origin ../test-upstream
 git remote -v
 git push
 git branch --set-upstream-to=origin/master master
