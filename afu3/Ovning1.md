@@ -79,8 +79,10 @@ git remote rm origin
 git remote add origin ../test-upstream
 git remote -v
 git push
-git branch --set-upstream-to=origin/master master
-git push
+```
+Vad hände?
+```sh
+git push --set-upstream origin master
 ```
 Varför gick det inte först? Vad ändrades?
 
