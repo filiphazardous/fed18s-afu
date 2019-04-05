@@ -9,7 +9,7 @@
 * Klicka på "Settings" och sedan på "SSH and GPG keys"
 * Klicka på "New SSH key"
 * Get nyckeln ett namn (t ex "mitt-namn-laptop")
-* Kör `cat id_rsa.pub` i terminalen
+* Kör `cat ~/.ssh/id_rsa.pub` i terminalen
 * Kopiera textumatningen till fältet "Key" och klicka på "Add SSH key"
 
 *Obs!*  
