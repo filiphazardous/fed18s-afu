@@ -1,5 +1,5 @@
 # Övning 1:
-## Övningar med remots
+## Övningar med remotes
 Först skapar vi en upstream, fast lokalt:
 ```sh
 mkdir test-upstream
