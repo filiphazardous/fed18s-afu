@@ -75,3 +75,6 @@ git push -f
 ```
 
 Vad händer? Varför?
+
+Vad händer om någon gör en `git pull` på en gren som blivit
+ force-pushad?
