@@ -3,6 +3,7 @@
 
 ```sh
 mkdir demo1
+cd demo1
 git init
 echo "demo1" > README
 git add README
