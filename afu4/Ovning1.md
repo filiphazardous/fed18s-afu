@@ -73,7 +73,7 @@ Vad ska jag göra om jag har untracked files som jag vill behålla? (Tips: Testa
 
 ```sh
 echo foo >> foo
-git clean
+git clean -i
 ```
 Vad händer?
 ```sh
