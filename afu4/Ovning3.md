@@ -64,6 +64,9 @@ git reflog
 
 Vad ser du?
 
+Det går att göra andra ändringar i historiken med `git rebase -i`
+ t ex kan du squasha och skippa commits. Prova även dem.
+
 ```sh
 git push
 ```
