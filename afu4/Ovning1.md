@@ -8,9 +8,27 @@ echo "demo1" > README
 git add README
 git commit -m "Initial commit"
 cd .git/hooks
+```
+
+---
+
+### Om du har Mac:
+```sh
 touch pre-commit
 chmod +x pre-commit
 ```
+
+### Om du har Windows:
+```sh
+cp pre-commit.sample pre-commit
+```
+Öppna filen `pre-commit` med din editor och ta bort
+ hela innehållet i filen.
+
+---
+
+### Här fortsätter instruktionerna för alla:
+
 Klistra in i filen:
 ```sh
 #!/bin/sh
@@ -86,6 +104,10 @@ Skapa filen "lines" med innehållet:
 3
 4
 5
+6
+7
+8
+9
 ```
 Adda och commita filen.
 
