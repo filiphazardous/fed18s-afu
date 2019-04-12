@@ -7,6 +7,9 @@
 * `cd /` - gå till rot-kalalogen
 * `pwd` - visa hela sökvägen till katalogen du står i
 * `ls` - visa innehållet i katalogen du står i (tillägget `-l` ger detaljerad output, tillägget `-a` visar dolda filer)
+* `rm <filnamn>` - ta bort fil
+* `rm -rf <katalognamn>` - ta bort katalogen och allt dess
+ innehåll
 
 ## Visa och sök text/data
 * `echo $VARIABEL` - visa innehållet i variabeln $VARIABEL
