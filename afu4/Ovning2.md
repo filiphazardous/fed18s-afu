@@ -75,7 +75,10 @@ Vad är skillnaden mellan `git grep foo` och `grep foo`?
 
 
 ```sh
+git checkout new_branch
 git blame branch
 ```
 
+(OBS! Filens namn är `branch` - `git blame` körs alltid
+ på en fil!)  
 Vad kan det här kommandot användas till?
