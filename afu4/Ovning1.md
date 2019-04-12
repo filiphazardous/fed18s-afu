@@ -39,7 +39,13 @@ git commit -m foo
 Vad händer? Varför?
 
 ```sh
-git clean
+git clean -i
+```
+
+Följ instruktionerna för att välja den fil du vill radera. (Om du vet i
+ förväg att du vill radera alla ospårade filer kan du köra `git clean -f`)
+
+```sh
 git commit -m foo
 ```
 Vad händer? Varför?
