@@ -66,7 +66,7 @@ git grep foo
 git reset
 git grep foo
 
-grep foo
+grep foo *
 ```
 
 I vilka situationer ser vi träffar på olika filer?
