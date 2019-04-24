@@ -1,4 +1,4 @@
-# Arbetsmetodik för utvecklare VT18
+# Arbetsmetodik för utvecklare VT19
 
 [Kursplan](Kursplan.md)
 
@@ -15,7 +15,7 @@
 | Delmoment                              | Period  |
 |:---------------------------------------|--------:|
 | [__1. Versionshantering med Git__](#1-versionshantering-med-git) | v.12-15 |
-| [__2. Utvecklingsprinciper__](#2-utvecklingsprinciper) | prel v.17-18 |
+| [__2. Utvecklingsprinciper__](#2-utvecklingsprinciper) | v.17-19 |
 | [__3. Kvalitetssäkring av utvecklingsarbete__](#3-kvalitetss%C3%A4kring-av-utvecklingsarbete) | prel v.19-21 |
 | [__4. Verktyg och praxis__](#4-verktyg-och-praxis) | prel v.22-24 |
 
@@ -28,6 +28,8 @@
 ## Litteratur
 
 * [Pro Git (PG)](https://git-scm.com/book/en/v2)
+* [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+* [CSS Tricks: Working towards better naming](https://css-tricks.com/working-towards-better-naming/)
 
 ## Användbara länkar
 
@@ -39,6 +41,10 @@
 ## Lektionsplanering
 
 Länkarna under varje pass ligger till grund för materialet som gås igenom under passet. Läs igenom dessa som förberedelse inför passet för att få ut så mycket som möjligt av det.
+
+<details>
+  <summary>Tidigare delmoment</summary>
+  <p>
 
 ### 1. Versionshantering med Git
 
@@ -83,4 +89,33 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
     * Credential Storage
 * [PG: Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 * [Övningar verktyg](afu4/README.md)
+  </p>
+</details>
 
+### 2. Utvecklingsprinciper
+
+#### `v.17, 26/4`
+
+* Vad är kvalitet
+* Teknisk skuld
+* Ren kod ("clean code")
+  * Namngivning
+  * Funktioner
+* Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself))
+* Läsbarhet
+* [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)  
+  Läs "Introduction", "Variables", och "Functions"
+* [CSS Tricks: Working towards better naming](https://css-tricks.com/working-towards-better-naming/)
+
+#### `v.19, 8/5`
+
+* Refaktorisering
+* Ren kod
+  * Command-query separation ([CQS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation))
+  * Kommentarer
+  * Objekt och klasser
+* Scoutregeln (lämna lägerplatsen bättre än den var när du kom)
+* You Aren't Gonna Need It ([YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)) och [Feature creep](https://en.wikipedia.org/wiki/Feature_creep)
+* SOLID
+* [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)  
+  Läs "Objects and Data Structures", "Classes", "SOLID" och "Comments"
