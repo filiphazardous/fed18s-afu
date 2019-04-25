@@ -106,6 +106,7 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 * [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)  
   Läs "Introduction", "Variables", och "Functions"
 * [CSS Tricks: Working towards better naming](https://css-tricks.com/working-towards-better-naming/)
+* [Övningar](afu5/README.md)
 
 #### `v.19, 8/5`
 
