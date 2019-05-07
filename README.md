@@ -120,3 +120,4 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 * SOLID
 * [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)  
   Läs "Objects and Data Structures", "Classes", "SOLID" och "Comments"
+* [Övningar](afu6/README.md)
