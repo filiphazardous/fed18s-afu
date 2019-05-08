@@ -19,12 +19,12 @@ class DOMTraverser {
 
   setup() {
     this.rootNode = this.settings.rootNode;
-    this.animationModule.setup();
+    this.settings.animationModule.setup();
   }
 
   traverse() {
     this.rootNode.children.forEach((child) => {
-      this.animationModule.animate(child);
+      this.settings.animationModule.animate(child);
       child.traverse();
     });
   }
