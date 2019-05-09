@@ -129,6 +129,7 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 #### `v.19, 10/5`
 
 * Kodstandard
+  * [Idiomatic.js](https://github.com/rwaldron/idiomatic.js)
 * Kodgranskning
   * [Code Review Guidelines](https://www.codeproject.com/Articles/524235/Codeplusreviewplusguidelines)
   * [What a CSS Code Review Might Look Like](https://css-tricks.com/what-a-css-code-review-might-look-like/)
