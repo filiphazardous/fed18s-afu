@@ -169,3 +169,28 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
     * End-to-End tests
     * Exploratory testing
 * Demo gruppuppgiften
+
+### 4. Verktyg och praxis
+
+#### `v.22, 31/5`
+
+* BEM/SMACSS/andra namnkonventioner i CSS
+* Graceful degradation / Progressive enhancement
+* Arbete med gruppuppgiften
+
+#### `v.23, 7/6`
+
+* Regex
+* Progressive Web Apps
+* Demo gruppuppgiften
+
+#### `v.24, 14/6`
+
+* Continuous Integration
+* Continuous Delivery
+* Arbete med gruppuppgiften
+
+#### `v.25, 18/6`
+
+* Tid för komplettering
+* Demo gruppuppgiften
