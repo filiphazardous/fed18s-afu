@@ -136,6 +136,7 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 * Linting
 * Gruppuppgiften, intro och eget arbete
   * [Några Javascript-koncept](Javascript.md) kan vara till hjälp
+  * https://github.com/fed18s/gruppuppgiften
 
 #### `v.20, 17/5`
 
