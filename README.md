@@ -37,6 +37,7 @@
 * [TryGit](https://try.github.io/levels/1/challenges/1)
 * [Learn Git Branching](https://learngitbranching.js.org/)
 * [Några bash-kommandon](Bash.md)
+* [Några Javascript-koncept](Javascript.md)
 
 ## Lektionsplanering
 
@@ -89,8 +90,6 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
     * Credential Storage
 * [PG: Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 * [Övningar verktyg](afu4/README.md)
-  </p>
-</details>
 
 ### 2. Utvecklingsprinciper
 
@@ -121,3 +120,31 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 * [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)  
   Läs "Objects and Data Structures", "Classes", "SOLID" och "Comments"
 * [Övningar](afu6/README.md)
+
+  </p>
+</details>
+
+### 3. Kvalitetssäkring av utvecklingsarbete
+
+#### `v.19, 10/5`
+
+* Kodstandard
+* Kodgranskning
+  * [Code Review Guidelines](https://www.codeproject.com/Articles/524235/Codeplusreviewplusguidelines)
+  * [What a CSS Code Review Might Look Like](https://css-tricks.com/what-a-css-code-review-might-look-like/)
+* Linting
+* Gruppuppgiften, intro och eget arbete
+  * [Några Javascript-koncept](Javascript.md) kan vara till hjälp
+
+#### `v.20, 17/5`
+
+* Testautomatisering
+* Enhetstester
+* TDD
+* Arbete med gruppuppgiften
+
+#### `v.21, 24/5`
+
+* UI-tester
+* E2E-tester
+* Demo gruppuppgiften
