@@ -32,6 +32,51 @@ const spot = new Dog({size: 'medium', greeting: 'Bark!'});
 
 spot.greet();
 ```
+## Arrow functions
+
+Funktioner kan i javascript alltid lagras i variabler och skickas som
+ parametrar till andra funktioner. Ett nytt sätt att skriva en funktion som
+ är lite smidigare är med pildefinitionen. Den har dessutom bieffektion att
+ den kommer ihåg sitt `this` - objektet som den hör till (men det är överkurs
+ för våra övningar). Nedan följer två funktioner som gör samma sak på samma
+ sätt, en skriven på det gamla sättet och en med arrow-syntax.
+
+```javascript 1.8
+const oldFunction = function (parameter1, parameter2) {
+  if  (parameter1) {
+    return doStuff(parameter2);
+  }
+  return null;
+};
+
+const arrowFunction = (parameter1, parameter2) => {
+  if (parameter1) {
+    return doStuff(parameter2);
+    return null;
+  }
+  return null;
+};
+```
+
+Om en funktion bara ska göra en enkel sak och returnera ett värde, så behöver
+ en arrow-funktion inte ha en funktions-kropp och ett return-statement. Då kan
+ koden skrivas ännu tajtare.
+
+```javascript 1.8
+const parseDecimalStrOld = function (stringInput) {
+  return parseInt(stringInput, 10);
+};
+
+const parseDecimalStrArw = stringInput => parseInt(stringInput, 10);
+```
+
+Om en funktion ska göra en enkel sak och returnera ett objekt, så kan parsern
+ inte veta om `{ }` avser att definiera ett kodblock eller ett objekt. Då måste
+ vi sätta `( )` runt objektet för att göra det tydligt.
+ 
+ ```javascript 1.8
+const parseId = idString => ({ id: parseInt(idString, 10) });
+```
 
 ## Promise
 
