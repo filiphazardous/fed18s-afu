@@ -24,6 +24,15 @@
 | Uppgift                                    | Deadline |
 |:-------------------------------------------|---------:|
 | Inlämningsuppgift (inlagt i Zenith) 1 (Git)| tis 16/4 |
+| Inlämningsuppgift (inlagt i Zenith) 2 (Utvecklingsprinciper)|ons 15/5|
+
+
+
+| Gruppuppgiften                             | Demodags |
+|:-------------------------------------------|---------:|
+| Del 1: Node backend                        | 24 maj   |
+| Del 2: Front-end med tester                | 7 juni   |
+| Del 3: CSS och verifiering av input        | 18 juni  |
 
 ## Litteratur
 
@@ -142,7 +151,10 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 
 * Testautomatisering
 * Enhetstester
+  * [What are unit testing, integration testing and functional testing?](https://codeutopia.net/blog/2015/04/11/what-are-unit-testing-integration-testing-and-functional-testing/)
+  (Läs avsnittet "Unit Testing")
 * TDD
+  * [What's the difference between Unit Testing, TDD and BDD](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/)
 * Arbete med gruppuppgiften
 
 #### `v.21, 24/5`
