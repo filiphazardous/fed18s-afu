@@ -12,7 +12,7 @@ En klass definierar hur objekt fungerar på ungefär samma sätt som ett recept
 Kodklippet nedan definierar en klass, skapar sedan ett objekt av klassen,
  och anropar till sist metoder på objektet.
 
-```javascript 1.8
+```javascript
 class Dog {
   constructor({size, greeting}) {
     this.size = size;
@@ -32,6 +32,34 @@ const spot = new Dog({size: 'medium', greeting: 'Bark!'});
 
 spot.greet();
 ```
+
+### Objekt, del 2
+
+Utöver att objekt är en instans av en klass, så kan objekt också användas som
+ maps, dvs som key-value store. Om du har namnet på en key i en sträng-variabel
+ så kan du komma åt värdet genom att indexera objektet med hakparenteser.
+
+På motsvarande sätt kan du också skapa ett objekt med keys i variabelnamn genom
+ att sätta dem i hakparentes.
+
+```javascript
+const parameter = 'age';
+
+const cat = {
+  name: 'Kitty',
+  age: 2,
+};
+
+console.log(`Kitty's age is ${cat[parameter]}`);
+
+const cat2 = {
+  name: 'Aslan',
+  [parameter]: 11,
+};
+
+console.log(`Aslan's age is ${cat.age}`);
+```
+
 ## Arrow functions
 
 Funktioner kan i javascript alltid lagras i variabler och skickas som
@@ -41,7 +69,7 @@ Funktioner kan i javascript alltid lagras i variabler och skickas som
  för våra övningar). Nedan följer två funktioner som gör samma sak på samma
  sätt, en skriven på det gamla sättet och en med arrow-syntax.
 
-```javascript 1.8
+```javascript
 const oldFunction = function (parameter1, parameter2) {
   if  (parameter1) {
     return doStuff(parameter2);
@@ -62,7 +90,7 @@ Om en funktion bara ska göra en enkel sak och returnera ett värde, så behöve
  en arrow-funktion inte ha en funktions-kropp och ett return-statement. Då kan
  koden skrivas ännu tajtare.
 
-```javascript 1.8
+```javascript
 const parseDecimalStrOld = function (stringInput) {
   return parseInt(stringInput, 10);
 };
@@ -74,7 +102,7 @@ Om en funktion ska göra en enkel sak och returnera ett objekt, så kan parsern
  inte veta om `{ }` avser att definiera ett kodblock eller ett objekt. Då måste
  vi sätta `( )` runt objektet för att göra det tydligt.
  
- ```javascript 1.8
+ ```javascript
 const parseId = idString => ({ id: parseInt(idString, 10) });
 ```
 
@@ -88,7 +116,7 @@ När en funktion inte kan svara direkt så låser den inte koden, utan returnera
 Kodklippet nedan visar en funktion som returnerar ett Promise som återkommer
  efter önskad tid (i sekunder).
 
-```javascript 1.8
+```javascript
 function wait(milliseconds) {
   return new Promise((resolve, reject) => {
     setTimeout(resolve, milliseconds);
@@ -118,7 +146,7 @@ Kodexemplet nedan försöker hämta data från en url, och om den misslyckas fö
  att vi inte har någon uppkoppling så kommer den kasta ett Exception. Detta
  fångas av try/catch som visar en dialogruta om felet.
 
-```javascript 1.8
+```javascript
 try { // Try samlar upp exceptions som kastas i det här kodblocket
   fetch('/api/resource/1')
     .then((result) => {
