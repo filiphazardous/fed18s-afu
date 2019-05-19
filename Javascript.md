@@ -159,3 +159,27 @@ try { // Try samlar upp exceptions som kastas i det här kodblocket
   alert('Fetch failed with the following message\n' + error.msg);
 }
 ```
+
+# String literals
+
+I äldre versioner av Javascript slår vi ihop strängar med variabler genom att
+ helt enkelt använd `+`. I nyare versioner använder vi en metod där vi kan
+ lägga in variablerna direkt i strängen istället, detta kallas "string
+ literals."
+
+För att definiera en string literal så använder ni backticks (`) istället för
+ enkla eller dubbla citattecken, och för att använda en variabel i strängen
+ använder ni $-tecken och omger variabeln med krullparenteser ( { } )
+
+Om ni vill kan ni också göra funktionsanrop och göra matematiska operationer
+ innanför krullparenteserna.  
+
+Exempel:  
+```javascript
+var kittens = 5;
+var dogs = 2;
+var oldStyle = 'I have ' + kittens + ' kittens'; // "I have 5 kittens"
+var stringLiteral = `I have ${kittens} kittens`; // "I have 5 kittens"
+var stringLiteral2 = `I have ${getKittens()} kittens`; // "I have 5 kittens"
+var stringLiteral3 = `I have ${kittens + dogs} pets`; // "I have 7 pets"
+```
