@@ -159,6 +159,13 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 
 #### `v.21, 24/5`
 
+* Integrationstester
 * UI-tester
 * E2E-tester
+* [The practical test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+    * Integration tests
+    * Contract tests
+    * UI tests
+    * End-to-End tests
+    * Exploratory testing
 * Demo gruppuppgiften
