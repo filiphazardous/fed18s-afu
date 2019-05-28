@@ -23,8 +23,10 @@
 
 | Uppgift                                    | Deadline |
 |:-------------------------------------------|---------:|
-| Inlämningsuppgift (inlagt i Zenith) 1 (Git)| tis 16/4 |
-| Inlämningsuppgift (inlagt i Zenith) 2 (Utvecklingsprinciper)|ons 15/5|
+| Inlämningsuppgift (inlagt i Zenit) 1 (Git)| tis 16/4 |
+| Inlämningsuppgift (inlagt i Zenit) 2 (Utvecklingsprinciper)| ons 15/5 |
+| Inlämningsuppgift (inlagt i Zenit) 3 (Kodkvalitet)| ons 5/6 |
+| Inlämningsuppgift (inlagt i Zenit) 4 (Verktyg och praxis)| ons 19/6 |
 
 
 
@@ -130,8 +132,6 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
   Läs "Objects and Data Structures", "Classes", "SOLID" och "Comments"
 * [Övningar](afu6/README.md)
 
-  </p>
-</details>
 
 ### 3. Kvalitetssäkring av utvecklingsarbete
 
@@ -170,12 +170,17 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
     * Exploratory testing
 * Demo gruppuppgiften
 
+  </p>
+</details>
+
+
 ### 4. Verktyg och praxis
 
 #### `v.22, 31/5`
 
 * BEM/SMACSS/andra namnkonventioner i CSS
 * Graceful degradation / Progressive enhancement
+* Content Security Policy och CORS
 * Arbete med gruppuppgiften
 
 #### `v.23, 7/6`
@@ -194,3 +199,19 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 
 * Tid för komplettering
 * Demo gruppuppgiften
+
+## Gruppuppgiften
+
+### Del två
+
+* Ni förväntas ha implementerat test av alla tre typer (enhetstest,
+ integrationstest och funktionstest)
+* Funktionstestet ska vara implementerat med Selenium i ert frontend-repo
+ (se exemplen som redan finns)
+* Er frontend ska kompletteras med en möjlighet att välja mellan katter, hundar
+ och pokémon
+* Enhetstester och integrationstester får göras i ert frontend- eller
+ backend-repo (välj själv)
+* Om gruppen som gör en frontend som arbetar mot er backend anmäler buggar
+ via Githubs issues så ska ni supporta dem
+* Alla i gruppen ska ha medverkat i minst en commit mellan 24 maj och 7 juni
