@@ -179,8 +179,14 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 #### `v.22, 31/5`
 
 * BEM/SMACSS/andra namnkonventioner i CSS
+    * [BEM intro](http://getbem.com/introduction/) och [BEM naming](http://getbem.com/naming/)
+    * [SMACSS book](http://smacss.com/book/) (Läs Categorizing, Base rules och Layout rules)
 * Graceful degradation / Progressive enhancement
+    * [Graceful degradation vs progressive enhancement](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
 * Content Security Policy och CORS
+    * [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+    * [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+    * [Testa CSP](https://github.com/filiphazardous/csp-demo)
 * Arbete med gruppuppgiften
 
 #### `v.23, 7/6`
