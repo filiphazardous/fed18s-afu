@@ -191,19 +191,19 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 
 #### `v.23, 7/6`
 
-* Regex
-* Progressive Web Apps
-* Demo gruppuppgiften
+* Mera tester
+* Arbete med gruppuppgiften
 
 #### `v.24, 14/6`
 
-* Continuous Integration
-* Continuous Delivery
+* Verifiering i formulär
+* Regex
 * Arbete med gruppuppgiften
 
 #### `v.25, 18/6`
 
-* Tid för komplettering
+* Continuous Integration
+* Continuous Delivery
 * Demo gruppuppgiften
 
 ## Gruppuppgiften
@@ -220,4 +220,7 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
  backend-repo (välj själv)
 * Om gruppen som gör en frontend som arbetar mot er backend anmäler buggar
  via Githubs issues så ska ni supporta dem
-* Alla i gruppen ska ha medverkat i minst en commit mellan 24 maj och 7 juni
+* Lägg till verifiering av input för två fält i ert formulär (fälten behöver
+ inte vara kopplade till någon funktionalitet - det räcker om de är kopplade
+ till en knapp som triggar verifieringen)
+* Alla i gruppen ska ha medverkat i minst en commit mellan 24 maj och 18 juni
