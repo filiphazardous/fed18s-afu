@@ -197,7 +197,12 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 #### `v.24, 14/6`
 
 * Verifiering i formulär
+    * [Input types på MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) (läs om de olika typerna
+     samt de attribut som ni kan använda för att verifiera input)
 * Regex
+    * [Learn Regex The Easy Way](https://github.com/zeeshanu/learn-regex) (avsnitt 1-3)
+    * [Regexr regex sandbox](https://regexr.com/) (testkör och se vad som händer här)
+* [Exempelkod](./afu12/)
 * Arbete med gruppuppgiften
 
 #### `v.25, 18/6`
@@ -224,3 +229,11 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
  inte vara kopplade till någon funktionalitet - det räcker om de är kopplade
  till en knapp som triggar verifieringen)
 * Alla i gruppen ska ha medverkat i minst en commit mellan 24 maj och 18 juni
+
+### Del 2,5
+
+* Ni förväntas lägga till två input-fält på sidan med tillhörande knapp
+* Det ena väntas få sin input verifierad mha tillgängliga attribut i html
+* Det andra väntas få sin input verifierad mha en regex som anropas vid
+ knapptryckningen
+ 

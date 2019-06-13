@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>stuff</title>
+    <style>
+        input:invalid,
+        input.error {
+            color: red;
+        }
+
+        span.error {
+            display: none;
+            font-size: 0.5em;
+        }
+
+        input:invalid ~ span.error,
+        input.error ~ span.error
+        {
+            color: red;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<form id="form1">
+    <div>
+        <label for="form1-input1">Name:</label>
+        <input id="form1-input1" minlength="3" type="text" required/>
+        <span class="error">At least three characters needed!</span>
+    </div>
+    <div>
+        <label for="form1-input2">Email:</label>
+        <input id="form1-input2" type="email"/>
+        <span class="error">Input proper email!</span>
+    </div>
+    <div>
+        <label for="form1-input3">Homepage:</label>
+        <input id="form1-input3" type="url" placeholder="http://..." minlength="13"/>
+        <span class="error">Input proper web page (including "http://")</span>
+    </div>
+    <button id="form1-submit" type="submit">Submit</button>
+</form>
+<form id="form2">
+    <div>
+        <label for="form2-input1">Name:</label>
+        <input id="form2-input1" type="text" data-type="name"/>
+        <span class="error">Both surname and given name are expected (no hyphens)</span>
+    </div>
+    <div>
+        <label for="form2-input2">Swedish personal number</label>
+        <input id="form2-input2" type="text" data-type="personal number"/>
+        <span class="error">In the format of 10 digits delimited by -/+</span>
+    </div>
+    <button id="form2-submit" type="submit">Submit</button>
+</form>
+
+<script src="appVerify.js"></script>
+<script>pageLoaded();</script>
+
+</body>
+</html>
