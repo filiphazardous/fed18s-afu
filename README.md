@@ -208,7 +208,13 @@ Länkarna under varje pass ligger till grund för materialet som gås igenom und
 #### `v.25, 18/6`
 
 * Continuous Integration
+    * [CI på Bitbucket](https://www.atlassian.com/continuous-delivery/continuous-integration)
+    (artikeln har en lista med länkar efter ingressen, men fortsätter under länkarna)
 * Continuous Delivery
+    * [CDelivery på Bitbucket](https://www.atlassian.com/continuous-delivery)
+    (även den här artikeln har en lista med länkar efter ingressen, men fortsätter under länkarna)
+* Continuous Deployment
+    * [CDeployment på Bitbucket](https://www.atlassian.com/continuous-delivery/continuous-deployment)
 * Demo gruppuppgiften
 
 ## Gruppuppgiften
